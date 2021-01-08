@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 21, 2020 4:22:06 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="Entity.TaiKhoan" table="TAIKHOAN">
+        <id name="id" type="int" access="field">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="tentaikhoan" type="java.lang.String" access="field">
+            <column name="TENTAIKHOAN" />
+        </property>
+        <property name="matkhau" type="java.lang.String" access="field">
+            <column name="MATKHAU" />
+        </property>
+        <property name="chucvu" type="int" access="field">
+            <column name="CHUCVU" />
+        </property>
+    </class>
+</hibernate-mapping>

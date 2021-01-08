@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="Lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="Lib/c3p0-0.9.2.1.jar"/>
+	<classpathentry kind="lib" path="Lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="Lib/ehcache-core-2.4.3.jar"/>
+	<classpathentry kind="lib" path="Lib/hibernate-c3p0-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="Lib/hibernate-commons-annotations-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="Lib/hibernate-commons-annotations-4.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="Lib/hibernate-core-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="Lib/hibernate-entitymanager-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="Lib/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="Lib/itextpdf-5.1.0.jar"/>
+	<classpathentry kind="lib" path="Lib/javassist-3.15.0-GA.jar"/>
+	<classpathentry kind="lib" path="Lib/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="Lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="Lib/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="Lib/mysql-connector-java-8.0.19.jar"/>
+	<classpathentry kind="lib" path="Lib/swingx-all-1.6.4.jar"/>
+	<classpathentry kind="lib" path="Lib/SwingX.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

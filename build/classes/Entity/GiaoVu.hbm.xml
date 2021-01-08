@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 21, 2020 4:22:06 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="Entity.GiaoVu" table="GIAOVU">
+        <id name="id" type="int" access="field">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="diemchuandatmon" type="float" access="field">
+            <column name="DIEMCHUANDATMON" />
+        </property>
+        <property name="tuoitoida" type="int" access="field">
+            <column name="TUOITOIDA" />
+        </property>
+        <property name="tuoitoithieu" type="int" access="field">
+            <column name="TUOITOITHIEU" />
+        </property>
+    </class>
+</hibernate-mapping>

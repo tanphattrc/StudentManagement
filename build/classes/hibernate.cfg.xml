@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/quanlyhocsinh?useUnicode=true&amp;characterEncoding=UTF-8 </property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">1234</property>
+    <property name="hibernate.current_session_context_class">thread</property>
+    <property name="hibernate.transaction.flush_before_completion">False</property>
+    <mapping resource="Entity/TaiKhoan.hbm.xml"/>
+    <mapping resource="Entity/PhanQuyen.hbm.xml"/>
+    <!--    <mapping class="Entity.TaiKhoan"/>
+    <mapping class="Entity.PhanQuyen"/>-->
+    <mapping resource="Entity/Mon.hbm.xml"/>
+    <mapping resource="Entity/Lop.hbm.xml"/>
+    <mapping resource="Entity/HocSinh.hbm.xml"/>
+    <mapping resource="Entity/HocKy.hbm.xml"/>
+    <mapping resource="Entity/Diem.hbm.xml"/>
+    <mapping resource="Entity/GiaoVu.hbm.xml"/>
+    <mapping resource="Entity/Khoi.hbm.xml"/>
+    <mapping resource="Entity/HanhKiem.hbm.xml"/>
+    <mapping resource="Entity/ChiTietHanhKiem.hbm.xml"/>
+        <mapping resource="Entity/TongKet.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

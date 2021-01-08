@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 21, 2020 4:22:06 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="Entity.TongKet" table="TONGKET">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+           <property name="manamhoc" type="java.lang.String">
+            <column name="MANAMHOC" />
+        </property>
+        <property name="mahocsinh" type="java.lang.String">
+            <column name="MAHOCSINH" />
+        </property>
+        <property name="hoten" type="java.lang.String">
+            <column name="HOTEN" />
+        </property>
+        <property name="lop" type="java.lang.String">
+            <column name="LOP" />
+        </property>
+        <property name="tbhk1" type="java.lang.String">
+            <column name="TBHK1" />
+        </property>
+        <property name="hk1" type="java.lang.String">
+            <column name="HK1" />
+        </property>
+        <property name="xeploai1" type="java.lang.String">
+            <column name="XEPLOAI1" />
+        </property>
+        <property name="tbhk2" type="java.lang.String">
+            <column name="TBHK2" />
+        </property>
+        <property name="hk2" type="java.lang.String">
+            <column name="HK2" />
+        </property>
+        <property name="xeploai2" type="java.lang.String">
+            <column name="XEPLOAI2" />
+        </property>
+        <property name="tbcn" type="java.lang.String">
+            <column name="TBCN" />
+        </property>
+        <property name="hkcn" type="java.lang.String">
+            <column name="HKCN" />
+        </property>
+        <property name="xeploaicn" type="java.lang.String">
+            <column name="XEPLOAICN" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 21, 2020 4:22:06 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="Entity.Lop" table="LOP">
+        <id name="id" type="int" access="field">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="tenlop" type="java.lang.String" access="field">
+            <column name="TENLOP" />
+        </property>
+        <property name="khoi" type="int" access="field">
+            <column name="KHOI" />
+        </property>
+        <property name="siso" type="int" access="field">
+            <column name="SISO" />
+        </property>
+        <property name="malop" type="java.lang.String" access="field">
+            <column name="MALOP" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 21, 2020 4:22:06 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="Entity.Diem" table="DIEM">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="mahocsinh" type="java.lang.String">
+            <column name="MAHOCSINH" />
+        </property>
+        <property name="mamonhoc" type="java.lang.String">
+            <column name="MAMONHOC" />
+        </property>
+        <property name="mahocky" type="java.lang.String">
+            <column name="MAHOCKY" />
+        </property>
+        <property name="malop" type="java.lang.String">
+            <column name="MALOP" />
+        </property>
+        <property name="diemtbmon" type="java.lang.Float">
+            <column name="DIEMTBMON" />
+        </property>
+        <property name="diemmieng1" type="java.lang.Float">
+            <column name="DIEMMIENG1" />
+        </property>
+        <property name="diemmieng2" type="java.lang.Float">
+            <column name="DIEMMIENG2" />
+        </property>
+        <property name="diemmieng3" type="java.lang.Float">
+            <column name="DIEMMIENG3" />
+        </property>
+        <property name="diem15ph1" type="java.lang.Float">
+            <column name="DIEM15PH1" />
+        </property>
+        <property name="diem15ph2" type="java.lang.Float">
+            <column name="DIEM15PH2" />
+        </property>
+        <property name="diem15ph3" type="java.lang.Float">
+            <column name="DIEM15PH3" />
+        </property>
+        <property name="diem1tiet1" type="java.lang.Float">
+            <column name="DIEM1TIET1" />
+        </property>
+        <property name="diem1tiet2" type="java.lang.Float">
+            <column name="DIEM1TIET2" />
+        </property>
+        <property name="diem1tiet3" type="java.lang.Float">
+            <column name="DIEM1TIET3" />
+        </property>
+        <property name="diemhocky" type="java.lang.Float">
+            <column name="DIEMHOCKY" />
+        </property>
+    </class>
+</hibernate-mapping>

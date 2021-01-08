@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 21, 2020 4:22:06 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="Entity.ChiTietHanhKiem" table="CHITIETHANHKIEM">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="mahanhkiem" type="int">
+            <column name="MAHANHKIEM" />
+        </property>
+        <property name="mahocsinh" type="java.lang.String">
+            <column name="MAHOCSINH" />
+        </property>
+        <property name="malop" type="java.lang.String">
+            <column name="MALOP" />
+        </property>
+        <property name="mahocky" type="java.lang.String">
+            <column name="MAHOCKY" />
+        </property>
+    </class>
+</hibernate-mapping>
